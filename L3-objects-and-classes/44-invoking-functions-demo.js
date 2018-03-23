@@ -3,7 +3,7 @@ const cat = {
 };
 
 function sayHello(message) {
-  console.log(`${this.message}, ${this.name}`);
+  console.log(`${message}, ${this.name}`);
 }
 
 sayHello.call(cat, 'Nice to see you');
