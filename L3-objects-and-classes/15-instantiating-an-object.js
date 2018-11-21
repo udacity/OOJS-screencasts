@@ -12,7 +12,7 @@ let taylor = new Hero('Taylor', 'mother');
 let riley = new Hero('Riley', 'coach');
 
 taylor.name;
-riley.occupation;
+riley.role;
 
 taylor.introduce();
 riley.introduce();
