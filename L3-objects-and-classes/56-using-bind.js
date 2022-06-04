@@ -11,6 +11,6 @@ const dog = {
 };
 
 const myGrow = dog.growOneYear.bind(dog);
-
+invokeTwice(myGrow)
 dog.age;
 // 7
